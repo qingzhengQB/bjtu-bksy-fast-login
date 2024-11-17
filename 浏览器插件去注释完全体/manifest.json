@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "本科生院验证码自动填入",
+  "version": "1.0.0",
+  "description": "一个自动填入北交本科生院验证码的插件，因为穷的一批可能需要经常换服务器域名什么的导致旧版失效。如果失效了请访问 https://github.com/qingzhengQB/bjtu-bksy-fast-login 获取新版（或本人跑路信息）",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "activeTab",
+    "cookies",
+    "https://bksy.bjtu.edu.cn/*",
+    "https://bksycenter.bjtu.edu.cn/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bksy.bjtu.edu.cn/login_introduce_s.html"],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "扩展已安装，基础信息填入"
+  },
+  "web_accessible_resources": ["login.js"]
+}
