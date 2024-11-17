@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设置登陆账号密码</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>关于这个自动填写北交本科生院验证码扩展</h1>
+    <p>第一次使用需要填写账号密码以便快速填入，后续如果账号密码改动了直接重新加载拓展即可</p>
+    <p>账号：<input type="text" id="username"></p>
+    <p>密码：<input type="password" id="password"></p>
+    <button id="close-button">保存</button></div>
+
+    <!-- 禁止内联脚本，所以外部脚本引用 -->
+    <script src="js/popup.js"></script>
+</body>
+</html>
