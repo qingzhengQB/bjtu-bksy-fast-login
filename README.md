@@ -10,7 +10,7 @@ release 下载插件压缩包 extension.zip，解压后找到文件夹“浏览�
 ![Picture](https://raw.githubusercontent.com/qingzhengQB/bjtu-bksy-fast-login/refs/heads/main/picture/bui.bmp)
 2. 选择`管理拓展`
 ![Picture](https://raw.githubusercontent.com/qingzhengQB/bjtu-bksy-fast-login/refs/heads/main/picture/extc.png)
-3. 在拓展管理界面，<u>将开发人员模式打开</u>，点击`加载解压缩的拓展`，选择刚刚解压出来的“浏览器插件去注释完全体”这个文件夹即可
+3. 在拓展管理界面，**将开发人员模式打开**，点击`加载解压缩的拓展`，选择刚刚解压出来的“浏览器插件去注释完全体”这个文件夹即可
 ![Picture](https://raw.githubusercontent.com/qingzhengQB/bjtu-bksy-fast-login/refs/heads/main/picture/extui.png)
 4. 第一次使用需要填写账号密码方便填入登陆信息。后续密码发生变动直接点击`重新加载`即可更新密码
 ![Picture](https://raw.githubusercontent.com/qingzhengQB/bjtu-bksy-fast-login/refs/heads/main/picture/tip.png)
