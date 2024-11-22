@@ -16,7 +16,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # 仅显示错误信息
 app = Flask(__name__)
 sdk = muggle_ocr.SDK(model_type=muggle_ocr.ModelType.Captcha)
 
-limiter = Limiter(get_remote_address, app=app, storage_uri="redis://:@Youziyv1@localhost:6379/10")
+limiter = Limiter(get_remote_address, app=app, storage_uri="redis://:password@localhost:6379/10")
 
 @app.errorhandler(429)
 def ratelimit_error(error):
