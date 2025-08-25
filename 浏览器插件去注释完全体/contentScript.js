@@ -1,4 +1,4 @@
-var captchaRequestURL = "https://qpqpqpqpqp.com/captcha";
+var captchaRequestURL = "https://captcha-recognition.qzqb.cc/captcha";
 function createNotification(message, duration = 12000) {
   // 创建通知容器
   const notificationDiv = document.createElement("div");
